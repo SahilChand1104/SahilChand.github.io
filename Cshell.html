@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Sahil Chand Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        body.blue-background {
+            background-color: #3498db;
+        }
+
+        /* Add this style to your existing styles or update accordingly */
+        #main article.post {
+            border: 1px solid #ddd; /* Add a border around each project box */
+            border-radius: 10px; /* Add rounded corners to the project box */
+            margin-bottom: 30px; /* Add some spacing between project boxes */
+            overflow: hidden; /* Hide overflowing content within the box */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+        }
+
+        #main article.post header.major {
+            padding: 1.5em; /* Add padding to the header for better spacing */
+        }
+
+        #main article.post p {
+            padding: 1em; /* Add padding to the paragraphs for better readability */
+        }
+
+        #main article.post ul.actions.special {
+            margin-top: 1em; /* Add margin at the top of the actions list */
+        }
+
+        #main article.post .image {
+            border-radius: 10px 10px 0 0; /* Add rounded corners only to the top of the image */
+        }
+
+        #main article.post .actions.special .button {
+            background-color: #3498db; /* Match the button color with the background color */
+            color: #fff; /* Set text color to white for better contrast */
+            border: none; /* Remove button border */
+            padding: 10px 20px; /* Add padding to the button for better spacing */
+            border-radius: 5px; /* Add rounded corners to the button */
+        }
+
+        #main article.post .actions.special .button:hover {
+            background-color: #2980b9; /* Change button color on hover for feedback */
+        }
+
+        #footer {
+            background-color: #2c3e50; /* Set a background color for the footer */
+            color: #ecf0f1; /* Set text color in the footer */
+            text-align: center; /* Center text in the footer */
+            padding: 2em 0; /* Add padding to the footer for better spacing */
+        }
+
+        #footer ul.icons.alt li {
+            margin: 0 10px; /* Add margin between social icons in the footer */
+        }
+
+        #footer ul.icons.alt a {
+            color: #ecf0f1; /* Set social icon color */
+        }
+        #footer ul.icons.alt {
+        display: flex;
+        justify-content: flex-end; /* Align icons to the right */
+        align-items: flex-end; /* Align icons to the bottom */
+        margin-top: 1em; /* Add margin at the top of the icons list */
+    }
+
+    #footer ul.icons.alt li {
+        margin: 0 10px; /* Add margin between social icons in the footer */
+    }
+
+    #footer ul.icons.alt a {
+        color: #ecf0f1; /* Set social icon color */
+    }
+    </style>
+</head>
+
+<body class="is-preload blue-background">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Custom Shell Project<br /></h1>
+            <p>I did this project for my Operating Systems class at SFU, unfortunately I was not given permission to add the code to my portfolio. However, I will show a demonstration of this project instead because I am still very proud of it and I would love to share it!
+            </p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Back to Home Page</a>
+        </header>
+        <!-- Main -->
+        <div id="main">
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <h2>Interactive Mode<br /></h2>
+                    <p>My Custom Linux Shell supports the default Linux commands, like pwd and more. It also has commands to print items, change the color of the
+                        text, get a log of all the actions and variable assignment. The interactive mode allows the user to use whatever commands they want in any order,
+                        this is a mode that I believe most users will be familiar with!
+                    </p>
+                </header>
+                <a class="image main"><img
+                        src="images/Interactive.PNG" alt="" /></a>
+            </article>
+            <!-- Other Posts ... -->
+            <article class="post featured">
+                <header class="major">
+                    <h2>Script Mode<br /></h2>
+                    <p>Script Mode is a very unique feature where we input a text file that contains a bunch of commands, and the system will complete all the commands in order
+                        automatically. Below I will show an example of a .txt file that can be used for script mode, and then I will show an image of the result of script mode be
+                        used on the text file.
+                    </p>
+                </header>
+                <a class="image main"><img
+                        src="images/MyScript.PNG" alt="" /></a>
+                        <a class="image main"><img
+                            src="images/script mode.PNG" alt="" /></a>
+            </article>
+            <article class="post featured">
+                <header class="major">
+                    <h2>Summary<br /></h2>
+                    <p>To summarize, my custom shell acts like a default Linux shell, however it has more commands and even two modes! This entire project was done in C and I did
+                        all of my coding on an Ubuntu virtual machine. Thank you for reviewing this personal project of mine!
+                    </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <h3></h3>
+        <ul class="icons alt">
+            <li><a href="https://github.com/SahilChand1104" class="icon brands alt fa-github"><span
+                        class="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/sahil-chand-613192293/" class="icon brands alt fa-linkedin"><span
+                        class="label">LinkedIn</span></a></li>
+        </ul>
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+            <!--<li>&copy; Untitled</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            -->
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
